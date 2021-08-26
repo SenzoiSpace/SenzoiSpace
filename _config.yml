@@ -26,7 +26,7 @@ description: >-                        # used by seo meta and the atom feed
   A website for tracking and sharing my progression.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://senzoispace.vercel.app'
 
 github:
   username: SenzoiSpace             # change to your github username
@@ -53,7 +53,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
+  id: 'G-77ERTCZZPS'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -77,7 +77,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: ''
+img_cdn: 'https://i.ibb.co/NFxQfcL/Image-CDN.png'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://i.ibb.co/V94twXY/Avatar.png
