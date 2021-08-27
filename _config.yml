@@ -51,13 +51,14 @@ google_site_verification: Z7IrTrbHFtDe8KhMvkYlszbfjN3SJ6l_z4JQx15Y-Ts # change t
 
 # ↑ --------------------------
 
+google_analytics: "G-77ERTCZZPS"
 
-google_analytics:
-  id: 'G-77ERTCZZPS'              # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+# google_analytics:
+#   id: 'G-77ERTCZZPS'              # fill in your Google Analytics ID
+#   # Google Analytics pageviews report settings
+#   pv:
+#     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+#     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #

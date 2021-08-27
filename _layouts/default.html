@@ -15,6 +15,9 @@ layout: compress
 
 <html lang="{{ site.lang }}" {{ prefer_mode }}>
 
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include analytics.html %}
+  {% endif %}
   {% include head.html %}
 
   <body data-spy="scroll" data-target="#toc">
