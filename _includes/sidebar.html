@@ -56,7 +56,7 @@
         {%- if entry.type == 'github' -%}
           https://github.com/{{ site.github.username }}
         {%- elsif entry.type == 'discord' -%}
-          https://discord.com/invite/{{ site.discord.username }}
+          https://discord.senzoispace.my.id
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
