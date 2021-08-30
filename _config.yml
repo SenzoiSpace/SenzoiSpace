@@ -26,13 +26,13 @@ description: >-                        # used by seo meta and the atom feed
   A website for tracking and sharing my progression.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://senzoispace.vercel.app'
+url: 'https://senzoispace.my.id'
 
 github:
   username: SenzoiSpace             # change to your github username
 
-twitter:
-  username: SenzoiSpace            # change to your twitter username
+discord:
+  username: PuaUtAsVpW            # change to your discord invite URL
 
 social:
   # Change to your full name.
@@ -41,7 +41,7 @@ social:
   email: ankokukishi23@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/SenzoiSpace      # change to your twitter homepage
+    - https://discord.com/invite/PuaUtAsVpW      # change to your discord invite
     - https://github.com/SenzoiSpace       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -168,3 +168,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
